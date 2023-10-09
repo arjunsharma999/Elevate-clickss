@@ -11,11 +11,11 @@ function analiyst() {
         <div className="container px-5 pt-24 mx-auto">
           <div className="flex flex-col items-center text-center w-full mb-12 gap-3">
             <h1 className="sm:text-5xl text-4xl font-extrabold lg:w-[60%] title-font mb-6">
-            Transforming Raw Data into Actionable Reports
+            TRANSFORMING RAW DATA INTO ACTIONABLE REPORTS
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">Analytical reports are not just data summaries, theyre your compass in the data-driven world. They illuminate your path, helping you navigate the complexities of business with clarity and confidence.
             </p>
-            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+            <Textlink text={"Contact Us!"} href={"/pages/Contact"} className={"font-bold"} />
 
           </div>
         </div>
@@ -61,16 +61,16 @@ function analiyst() {
         <div class="container pb-12 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-start justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 ">
-                <p class="leading-relaxed mb-4">Use analytics to group customers based on demographics, behaviors, and preferences.
+                <p class="leading-relaxed mb-4">&#8226; Use analytics to group customers based on demographics, behaviors, and preferences.
                 </p>
-                <p class="leading-relaxed mb-4">Analyze how customers interact with your website, products, or services to identify patterns and preferences. 
+                <p class="leading-relaxed mb-4">&#8226; Analyze how customers interact with your website, products, or services to identify patterns and preferences. 
 
                 </p>
-                <p class="leading-relaxed mb-4">Conduct A/B tests on website elements, emails, or ads to understand what resonates best with your audience.
+                <p class="leading-relaxed mb-4">&#8226; Conduct A/B tests on website elements, emails, or ads to understand what resonates best with your audience.
                 </p>
-                <p class="leading-relaxed mb-4">Monitor customer feedback and reviews to gain insights into their satisfaction, pain points, and expectations.
+                <p class="leading-relaxed mb-4">&#8226; Monitor customer feedback and reviews to gain insights into their satisfaction, pain points, and expectations.
                 </p>
-                <p class="leading-relaxed mb-4">Calculate CLV to understand the long-term value of each customer and prioritize retention efforts.
+                <p class="leading-relaxed mb-4">&#8226; Calculate CLV to understand the long-term value of each customer and prioritize retention efforts.
 
                 </p>
             </div>
@@ -99,11 +99,10 @@ function analiyst() {
         <div class="container pb-12 pt-24 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex justify-start ">
-              <p> With us, theyre a thrilling journey through the world of data, where insights are brought to life, decisions are made with confidence, and the possibilities are endless.
+              <p> With us, the're a thrilling journey through the world of data, where insights are brought to life, decisions are made with confidence, and the possibilities are endless.
               </p>
             </div>
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-              <p className="text-sm uppercase">WORK WITH US</p>
               <h2 class="text-4xl font-bold  uppercase">
               reports were boring until you meet us
               </h2>
@@ -132,18 +131,83 @@ function analiyst() {
               />
             </motion.div>
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 ">
-                <p class="leading-relaxed mb-4">Our reports come with a narrative, a storyline that guides you through the data, making it relatable and meaningful.  
+                <p class="leading-relaxed mb-4">&#8226; Our reports come with a narrative, a storyline that guides you through the data, making it relatable and meaningful.  
                 </p>
-                <p class="leading-relaxed mb-4">
-Our reports are designed to provide actionable insights that drive decision-making. We dont just tell you whats happening; we tell you what you can do about it.
+                <p class="leading-relaxed mb-4">&#8226; Our reports are designed to provide actionable insights that drive decision-making. We dont just tell you whats happening; we tell you what you can do about it.
 
                 </p>
-                <p class="leading-relaxed mb-4">
-Numbers on a page used to be a blur, but our experts turn them into a roadmap for decision-making. We dont just deliver data; we deliver understanding.
+                <p class="leading-relaxed mb-4">&#8226; Numbers on a page used to be a blur, but our experts turn them into a roadmap for decision-making. We dont just deliver data; we deliver understanding.
                 </p>
-                <p class="leading-relaxed mb-4">Our experts infuse life into analytical reports through data visualization. We transform data into dynamic charts and graphs that tell a story, making insights leap off the page.
+                <p class="leading-relaxed mb-4">&#8226; Our experts infuse life into analytical reports through data visualization. We transform data into dynamic charts and graphs that tell a story, making insights leap off the page.
                 </p>
             </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section className="text-white body-font overflow-hidden">
+        <div className="container py-12 mx-auto ">
+          <div className="lg:w-[80%] mx-auto flex flex-wrap items-start justify-between ">
+            
+          
+            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
+              <p className="text-sm uppercase">Our Approach</p>
+
+              <h2 className="text-4xl font-bold ">
+              HOW WE NAVIGATE THE WORLD OF DATA
+              </h2>
+              <p className="leading-relaxed mb-4 text-lg">
+                &#10004; Data Artistry: We turn complex data into a masterpiece of simplicity, making analytics accessible to everyone, not just data scientists.
+              </p>
+              <p className="leading-relaxed mb-4 text-lg">
+                &#10004; Visual Storytelling: We don't just report data; we craft visual stories that captivate, engage, and empower you to make informed decisions.
+              </p>
+              <p className="leading-relaxed mb-4 text-lg">
+                &#10004; Data Whisperers: Our experts can hear what your data is saying, and they translate it into strategies that drive growth.
+              </p>
+              <p className="leading-relaxed mb-4 text-lg">
+                &#10004; The X-Ray Vision: We provide you with the X-ray vision needed to see through the complexity and extract the gems hidden within your data.
+              </p>
+            <Textlink text={"Book a Demo"} href={"/pages/Contact"} className={"font-bold"} />
+
+            </div>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              variants={{
+                visible: { opacity: 1, scale: 1 },
+                hidden: { opacity: 0, scale: 0 },
+              }}
+              className="flex items-center"
+            >
+              <img
+                className="w-full lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
+                src="/services/analytics-two.png"
+                alt="About Image"
+              />
+            </motion.div>
+
+          </div>
+        </div>
+      </section>
+      <section className="text-white body-font my-[3rem]">
+        <div className="container px-5 pt-24 mx-auto">
+          <div className="flex flex-col items-center text-center w-full mb-12 gap-3">
+            <h2 className="text-4xl font-bold  tracking-widest">
+                SOUNDS LIKE WE’RE A PERFECT FIT ?
+              </h2>
+              <p className="leading-relaxed mb-4">
+                At Elevate Clicks, we're more than just a digital marketing agency; we're your growth partners.<br/> Our unwavering commitment to your success sets us apart.
+              </p>
+              <p className="leading-relaxed mb-4">
+                Discover how our expertise aligns seamlessly with your business goals. <br/>
+                If you're seeking tailored solutions and exceptional results, we're the perfect fit. <br/>
+                Contact us today to start a conversation that could transform your business's digital journey.
+              </p>
+            <Textlink text={"Work With Us!"} href={"/pages/Contact"} className={"font-bold"} />
 
           </div>
         </div>
