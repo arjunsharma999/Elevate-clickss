@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url("../app/Css/Font/Poppins-Regular.ttf");
+}
+
+
+*::before,*::after {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: inherit; */
+}
+
+html {
+  font-size: 91%;
+  /* box-sizing: border-box; */
+}
+
+body {
+  color: #ffffff;
+  background-image: url('/main/bg-main.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-font-smoothing: antialiased;
+  /* font-family: 'sofiaPro'; */
+}
