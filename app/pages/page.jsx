@@ -5,6 +5,7 @@ import Textlink from "../common/Button/Textlink"
 import Image from "next/image";
 import Brands from "../component/Brand/pages"
 import Testimonials from "../component/Testimonials/page"
+import CountUp from 'react-countup';
 
 function homepage() {
   return (
@@ -22,25 +23,124 @@ function homepage() {
             </p>
             <Textlink text={"Get in touch"} href={"/pages/contact"} className={"font-bold text-gray-500"} />
           </div>
-          
-        <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              transition-all cursor-pointer={{ duration: 0.5 }}
-              variants={{
-                visible: { opacity: 1, scale: 1 },
-                hidden: { opacity: 0, scale: 0 },
-              }}
-              className="flex items-center"
-            >
-              <img
-                className="lg:w-[35rem] mx-auto hover:scale-105 transition-all cursor-pointer-all duration-500"
-                src="/services/analytics-one.png"
-                alt="About Image"
-              />
-            </motion.div>
         </div>
+
+
+        <section className="text-white body-font ">
+          <div className="w-full max-w-5xl p-5 pb-10 mx-auto mb-10 gap-5 columns-3  space-y-6  ">
+
+
+            <img
+              className=" grid grid-cols-4 gap-4 w-[30rem] lg:ml-[-2rem] mt-[2rem] lg:mt-0 hover:scale-105 transition-all duration-500 mx-auto"
+              src="/homepage/Mod4.png"
+              alt="Mod Image"
+            />
+
+            <img
+              className=" grid grid-cols-4 gap-4  w-[30rem] lg:ml-[-2rem] mt-[2rem] lg:mt-0 hover:scale-105 transition-all duration-500 mx-auto"
+              src="/homepage/Mod1.png"
+              alt="Mod Image"
+            />
+
+            <img
+              className="w-[30rem] lg:ml-[-2rem] mt-[2rem] lg:mt-0 hover:scale-105 transition-all duration-500 mx-auto"
+              src="/homepage/Mod2.png"
+              alt="Mod Image"
+            />
+
+            <img
+              className="w-[30rem] lg:ml-[-2rem] mt-[2rem] lg:mt-0 hover:scale-105 transition-all duration-500 mx-auto"
+              src="/homepage/Mod5.png"
+              alt="Mod Image"
+            />
+
+            <img
+              className="w-[30rem] lg:ml-[-2rem] mt-[2rem] lg:mt-0 hover:scale-105 transition-all duration-500 mx-auto"
+              src="/homepage/Mod3.png"
+              alt="Mod Image"
+            />
+
+
+
+            <img
+              className="w-[30rem] lg:ml-[-2rem] mt-[2rem] lg:mt-0 hover:scale-105 transition-all duration-500 mx-auto"
+              src="/homepage/Mod4.png"
+              alt="Mod Image"
+            />
+
+
+
+
+
+
+
+          </div>
+
+          </section>
+
+          <section className=" bg-blue-400 bg-opacity-10 p-5  ">
+            <div className=" flex w-full max-w-5xl p-5 pb-5 mx-auto mb-5 gap-5  ">
+
+            <CountUp start={0} end={99}>
+              {({ countUpRef, start }) => (
+                <div className="text-4xl mx-auto font-bold ">
+                  <span ref={countUpRef} />
+                  <span>+</span>
+                  <div className=" row">
+                    Completed
+                  </div>
+                  
+                  
+                  
+                </div>
+              )}
+
+              
+            </CountUp>
+
+            <CountUp start={0} end={100}>
+              {({ countUpRef, start }) => (
+                <div className="text-4xl mx-auto font-bold">
+                  <span ref={countUpRef} />
+                  <span>+</span>
+                  <div className=" row">
+                    Clients
+                  </div>
+                  
+                </div>
+              )}
+
+              
+            </CountUp>
+
+            <CountUp start={0} end={211}>
+              {({ countUpRef, start }) => (
+                <div className="text-4xl mx-auto font-bold h-12">
+                  <span ref={countUpRef} />
+                  <span>+</span>
+                  <div className=" row ">
+                    Projects
+                  </div>
+                  
+                </div>
+              )}
+
+              
+            </CountUp>
+
+              
+            </div>
+
+          </section>
+
+
+        
+
+
+
+
+
+
       </section>
       {/* //about */}
       <section className="text-white body-font overflow-hidden">
@@ -53,29 +153,29 @@ function homepage() {
               </h2>
               <p className=" text-lg leading-relaxed mb-4">
                 Elevate Clicks is a leading digital marketing agency that sspecializes in providing
-                comprehensive and tailored services to help businesses thrive in the online world. 
+                comprehensive and tailored services to help businesses thrive in the online world.
               </p>
               <p className=" text-lg leading-relaxed mb-4">
                 With our 360-degree approach , we at Elevate Clicks offer a wide range of solutions
-                designed to drive growth and maximize online visibility. 
+                designed to drive growth and maximize online visibility.
               </p>
               <p className=" text-lg leading-relaxed mb-4">
                 Whether you are a small startup or an established enterprise , Elevate Clicks
-                has the expertise and experience to take your business to new heights. 
+                has the expertise and experience to take your business to new heights.
               </p>
               <p className=" text-lg leading-relaxed mb-4">
                 Our team of skilled professionals understands the ever evolving digital landscape
                 and utilizes innovative strategies to ensure your brand stands out from the competition.
               </p>
               <p className=" text-lg leading-relaxed mb-4">
-                From Search Engine Optimization (SEO) and pay-per-click advertising (PPC) to social media management 
+                From Search Engine Optimization (SEO) and pay-per-click advertising (PPC) to social media management
                 ,content creation,and web design , Elevate Clicks covers all aspects of digital marketing.
               </p>
               <p className=" text-lg leading-relaxed mb-4">
                 We work closely with clients to understand their unique goals and devise
-                customized strategies that deliver measurable results. 
+                customized strategies that deliver measurable results.
               </p>
-            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+              <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
 
             </div>
 
@@ -121,9 +221,9 @@ function homepage() {
                   WEBSITE DEVELOPMENT
                 </h2>
                 <p className=" text-lg leading-relaxed">
-                We create website that clearly reflects your expertise, story, and values 
+                  We create website that clearly reflects your expertise, story, and values
                 </p>
-                  <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+                <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
 
               </a>
             </div>
@@ -133,9 +233,9 @@ function homepage() {
                   SEO
                 </h2>
                 <p className=" text-lg leading-relaxed">
-                 Boost your online visibility and attract organic traffic through our strategic and data-driven SEO techniques.
+                  Boost your online visibility and attract organic traffic through our strategic and data-driven SEO techniques.
                 </p>
-                  <Textlink text={"Book a Demo"} href={"/"} className={"font-bold text-gray-500"} />
+                <Textlink text={"Book a Demo"} href={"/"} className={"font-bold text-gray-500"} />
 
               </a>
             </div>
@@ -145,9 +245,9 @@ function homepage() {
                   SOCIAL MEDIA MANAGEMENT
                 </h2>
                 <p className=" text-lg leading-relaxed">
-                Engage your audience and grow your brand's influence through our creative and impactful social media campaigns.
+                  Engage your audience and grow your brand's influence through our creative and impactful social media campaigns.
                 </p>
-                            <Textlink text={"Book a Demo"} href={"/"} className={"font-bold text-gray-500"} />
+                <Textlink text={"Book a Demo"} href={"/"} className={"font-bold text-gray-500"} />
 
               </a>
             </div>
@@ -157,9 +257,9 @@ function homepage() {
                   EMAIL MARKETING
                 </h2>
                 <p className=" text-lg leading-relaxed">
-                Reach your customers with personalized and engaging email campaigns that nurture relationships and drive conversions.
+                  Reach your customers with personalized and engaging email campaigns that nurture relationships and drive conversions.
                 </p>
-                  <Textlink text={"Book a Demo"} href={"/"} className={"font-bold"} />
+                <Textlink text={"Book a Demo"} href={"/"} className={"font-bold"} />
               </a>
             </div>
 
@@ -169,9 +269,9 @@ function homepage() {
                   CONTENT MARKETING
                 </h2>
                 <p className="leading-relaxed">
-                Tell your brand story effectively and captivate your audience with our compelling and shareable content creation and distribution services.
+                  Tell your brand story effectively and captivate your audience with our compelling and shareable content creation and distribution services.
                 </p>
-                            <Textlink text={"Book a Demo"} href={"/"} className={"font-bold text-gray-500"} />
+                <Textlink text={"Book a Demo"} href={"/"} className={"font-bold text-gray-500"} />
 
               </a>
             </div>
@@ -181,9 +281,9 @@ function homepage() {
                   PAID ADVERTISING
                 </h2>
                 <p className="leading-relaxed">
-                Optimize your ad campaigns and maximize conversions through our targeted and cost-effective strategies.
+                  Optimize your ad campaigns and maximize conversions through our targeted and cost-effective strategies.
                 </p>
-                            <Textlink text={"Book a Demo"} href={"/"} className={"font-bold text-gray-500"} />
+                <Textlink text={"Book a Demo"} href={"/"} className={"font-bold text-gray-500"} />
 
               </a>
             </div>
@@ -229,13 +329,13 @@ function homepage() {
               <p className="leading-relaxed text-lg mb-4">
                 d) Transparency: Not only is Elevate Clicks a Digital marketing agency, but we also double as a consulting firm. We believe that guiding our clients to the best marketing platforms and sharing our first-hand experience allows us to create strong relationships while delivering the best product.
               </p>
-            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+              <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
 
             </div>
           </div>
         </div>
       </section>
-      
+
       <Brands />
 
       {/* Portfolio */}
@@ -349,7 +449,7 @@ function homepage() {
           </div>
         </div>
       </section>
-      
+
       <Testimonials />
     </>
   );
