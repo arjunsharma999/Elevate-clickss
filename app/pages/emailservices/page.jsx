@@ -65,16 +65,16 @@ function Emailservices() {
                 journey.
               </p>
               <p className="leading-relaxed mb-3 text-lg">
-                With personalized, data-driven strategies, we craft compelling
+                &#8594; With personalized, data-driven strategies, we craft compelling
                 campaigns that captivate your audience.
               </p>
               <p className="leading-relaxed mb-3 text-lg">
-                Our automation expertise saves your time and boosts results. We
+                &#8594; Our automation expertise saves your time and boosts results. We
                 understand that one size doesnt fit all, so we segment your
                 audience strategically.
               </p>
               <p className="leading-relaxed mb-3 text-lg">
-                Trust is paramount, and we ensure strict compliance with privacy
+                &#8594; Trust is paramount, and we ensure strict compliance with privacy
                 standards.
               </p>
               <Textlink
@@ -86,7 +86,21 @@ function Emailservices() {
           </div>
         </div>
       </section>
-
+      {/*New section */}
+      <section className="text-white body-font my-[3rem]">
+        <div className="container px-5 pt-24 mx-auto">
+          <div className="flex flex-col items-center text-center w-full mb-12 gap-3">
+            <h2 className="text-4xl font-bold  tracking-widest">
+                Leading Email Marketing Platform Services 
+              </h2>
+              <p className="leading-relaxed mb-4">
+                When you choose Elevate Clicks as your email marketing partner, you're not just hiring a service; <br/>
+                you're gaining a dedicated team invested in your success. <br/>
+                We're with you every step of the way, from strategy development to campaign execution and beyond.
+              </p>
+          </div>
+        </div>
+      </section>
       {/* section */}
       <section className="text-black w-[80%] mx-auto bg-white rounded-lg">
         <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center justify-between">
