@@ -143,6 +143,26 @@ function page() {
       </section>
 
       <Testimonials />
+
+      <section className="text-white body-font my-[3rem]">
+        <div className="container px-5 pt-24 mx-auto">
+          <div className="flex flex-col items-center text-center w-full mb-12 gap-3">
+            <h2 className="text-4xl font-bold  tracking-widest">
+                SOUNDS LIKE WE’RE A PERFECT FIT ?
+              </h2>
+              <p className="leading-relaxed mb-4">
+                At Elevate Clicks, we're more than just a digital marketing agency; we're your growth partners.<br/> Our unwavering commitment to your success sets us apart.
+              </p>
+              <p className="leading-relaxed mb-4">
+                Discover how our expertise aligns seamlessly with your business goals. <br/>
+                If you're seeking tailored solutions and exceptional results, we're the perfect fit. <br/>
+                Contact us today to start a conversation that could transform your business's digital journey.
+              </p>
+            <Textlink text={"Work With Us!"} href={"/pages/Contact"} className={"font-bold"} />
+
+          </div>
+        </div>
+      </section>
     </>
   );
 }
