@@ -200,7 +200,7 @@ function analiyst() {
                 SOUNDS LIKE WE’RE A PERFECT FIT ?
               </h2>
               <p className="leading-relaxed mb-4">
-                At Elevate Clicks, we're more than just a digital marketing agency; were your growth partners.<br/> Our unwavering commitment to your success sets us apart.
+                At Elevate Clicks, were more than just a digital marketing agency; were your growth partners.<br/> Our unwavering commitment to your success sets us apart.
               </p>
               <p className="leading-relaxed mb-4">
                 Discover how our expertise aligns seamlessly with your business goals. <br/>
