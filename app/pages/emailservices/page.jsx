@@ -94,9 +94,9 @@ function Emailservices() {
                 Leading Email Marketing Platform Services 
               </h2>
               <p className="leading-relaxed mb-4">
-                When you choose Elevate Clicks as your email marketing partner, you're not just hiring a service; <br/>
-                you're gaining a dedicated team invested in your success. <br/>
-                We're with you every step of the way, from strategy development to campaign execution and beyond.
+                When you choose Elevate Clicks as your email marketing partner, youre not just hiring a service; <br/>
+                youre gaining a dedicated team invested in your success. <br/>
+                Were with you every step of the way, from strategy development to campaign execution and beyond.
               </p>
           </div>
         </div>
@@ -148,9 +148,9 @@ function Emailservices() {
             WHAT MAKES US EXPERT ?
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-lg">
-            What sets us apart as email marketing experts? It's our commitment to excellence in every aspect. <br/>
-            Our team combines a mastery of design, crafting visually stunning templates, with a dedication to personalized content that resonates with your audience. We're subject line connoisseurs, curating the perfect hook for each campaign. And we believe in the power of automation, streamlining processes to save your time while delivering outstanding results. <br/>
-            It's this blend of creativity, personalization, strategy, and efficiency that makes us the go-to choice for email marketing success. Trust us to elevate your campaigns and engage your audience like never before.
+            What sets us apart as email marketing experts? Its our commitment to excellence in every aspect. <br/>
+            Our team combines a mastery of design, crafting visually stunning templates, with a dedication to personalized content that resonates with your audience. Were subject line connoisseurs, curating the perfect hook for each campaign. And we believe in the power of automation, streamlining processes to save your time while delivering outstanding results. <br/>
+            Its this blend of creativity, personalization, strategy, and efficiency that makes us the go-to choice for email marketing success. Trust us to elevate your campaigns and engage your audience like never before.
             </p>
           </div>
         </div>

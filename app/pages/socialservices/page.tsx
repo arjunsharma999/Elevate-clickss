@@ -151,7 +151,7 @@ Planning and organizing your content to ensure you get the highest engagement is
                 &#10004;Consistent Posting: Regular, scheduled content keeps your audience engaged.
               </p>
               <p className="leading-relaxed mb-4 text-lg">
-                &#10004; Audience Analysis: Understanding your audience's preferences informs content strategies.
+                &#10004; Audience Analysis: Understanding your audiences preferences informs content strategies.
               </p>
               <p className="leading-relaxed mb-4 text-lg">
                 &#10004; Trend Awareness: Stay updated on platform trends for relevance.

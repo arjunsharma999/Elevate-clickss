@@ -99,7 +99,7 @@ function analiyst() {
         <div class="container pb-12 pt-24 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex justify-start ">
-              <p> With us, the're a thrilling journey through the world of data, where insights are brought to life, decisions are made with confidence, and the possibilities are endless.
+              <p> With us, there a thrilling journey through the world of data, where insights are brought to life, decisions are made with confidence, and the possibilities are endless.
               </p>
             </div>
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
@@ -161,7 +161,7 @@ function analiyst() {
                 &#10004; Data Artistry: We turn complex data into a masterpiece of simplicity, making analytics accessible to everyone, not just data scientists.
               </p>
               <p className="leading-relaxed mb-4 text-lg">
-                &#10004; Visual Storytelling: We don't just report data; we craft visual stories that captivate, engage, and empower you to make informed decisions.
+                &#10004; Visual Storytelling: We dont just report data; we craft visual stories that captivate, engage, and empower you to make informed decisions.
               </p>
               <p className="leading-relaxed mb-4 text-lg">
                 &#10004; Data Whisperers: Our experts can hear what your data is saying, and they translate it into strategies that drive growth.
@@ -200,12 +200,12 @@ function analiyst() {
                 SOUNDS LIKE WE’RE A PERFECT FIT ?
               </h2>
               <p className="leading-relaxed mb-4">
-                At Elevate Clicks, we're more than just a digital marketing agency; we're your growth partners.<br/> Our unwavering commitment to your success sets us apart.
+                At Elevate Clicks, we're more than just a digital marketing agency; were your growth partners.<br/> Our unwavering commitment to your success sets us apart.
               </p>
               <p className="leading-relaxed mb-4">
                 Discover how our expertise aligns seamlessly with your business goals. <br/>
-                If you're seeking tailored solutions and exceptional results, we're the perfect fit. <br/>
-                Contact us today to start a conversation that could transform your business's digital journey.
+                If youre seeking tailored solutions and exceptional results, were the perfect fit. <br/>
+                Contact us today to start a conversation that could transform your businesss digital journey.
               </p>
             <Textlink text={"Work With Us!"} href={"/pages/Contact"} className={"font-bold"} />
 

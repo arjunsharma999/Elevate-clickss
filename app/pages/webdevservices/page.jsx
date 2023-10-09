@@ -18,7 +18,7 @@ function webdevservices() {
                 We Build Web Designs that skyrocket your business
               </h2>
               <p class="leading-relaxed mb-4 text-lg">
-                We offer the foundation of your dreams. we're your secret weapon to stay ahead of the curve. And  we're the bridge connecting you to a global audience. Our team doesn't just build websites; we craft online experiences that engage, enthrall, and convert visitors into loyal customers.
+                We offer the foundation of your dreams. were your secret weapon to stay ahead of the curve. And  were the bridge connecting you to a global audience. Our team doesnt just build websites; we craft online experiences that engage, enthrall, and convert visitors into loyal customers.
               </p>
             <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
 
@@ -51,7 +51,7 @@ function webdevservices() {
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-2 lg:mb-0 flex flex-col gap-3">
               <p className="uppercase">Innovative ideas</p>
               <h2 class="lg:text-4xl text-3xl font-bold  ">
-              WE'RE ABOUT SO MUCH MORE THAN WEBSITES
+              WERE ABOUT SO MUCH MORE THAN WEBSITES
               </h2>
               <p class="leading-relaxed mb-4 text-lg">
               Our vision is to revolutionize the way businesses connect with their audience. We strive to empower brands, big and small, to thrive in the digital landscape by delivering innovative and effective marketing strategies that resonate with the hearts and minds of their target market.

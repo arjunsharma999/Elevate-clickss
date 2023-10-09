@@ -110,7 +110,7 @@ function page() {
                 At Elevate Clicks, our values and morals center around integrity, transparency, and client-centricity.
               </p>
               <p className="leading-relaxed mb-4">
-                We prioritize ethical practices, provide honest guidance, and always put our clients' success first. 
+                We prioritize ethical practices, provide honest guidance, and always put our clients success first. 
               </p>
               <p className="leading-relaxed mb-4">
                 With a commitment to delivering results with integrity, we forge lasting partnerships built on trust and excellence.
@@ -122,7 +122,7 @@ function page() {
                 Our commitment to client success is the heartbeat of our agency. 
               </p>
               <p className="leading-relaxed mb-4">
-                We don't just love what we do; we thrive on it. Join us on this journey of branding excellence, where every success story is our triumph.
+                We dont just love what we do; we thrive on it. Join us on this journey of branding excellence, where every success story is our triumph.
               </p>
               <p className="leading-relaxed mb-4">
                 We believe in building authentic connections with our clients, understanding their vision, and delivering results that exceed expectations. 
@@ -131,7 +131,7 @@ function page() {
                 With every project, we pour our enthusiasm and expertise into creating brands that shine and digital strategies that thrive. 
               </p>
               <p className="leading-relaxed mb-4">
-                Experience a partnership where your success is our greatest reward. Let's make your brand stand out in a digital world.
+                Experience a partnership where your success is our greatest reward. Lets make your brand stand out in a digital world.
               </p>
             </div>
           </div>
@@ -151,12 +151,12 @@ function page() {
                 SOUNDS LIKE WE’RE A PERFECT FIT ?
               </h2>
               <p className="leading-relaxed mb-4">
-                At Elevate Clicks, we're more than just a digital marketing agency; we're your growth partners.<br/> Our unwavering commitment to your success sets us apart.
+                At Elevate Clicks, were more than just a digital marketing agency; were your growth partners.<br/> Our unwavering commitment to your success sets us apart.
               </p>
               <p className="leading-relaxed mb-4">
                 Discover how our expertise aligns seamlessly with your business goals. <br/>
-                If you're seeking tailored solutions and exceptional results, we're the perfect fit. <br/>
-                Contact us today to start a conversation that could transform your business's digital journey.
+                If youre seeking tailored solutions and exceptional results, were the perfect fit. <br/>
+                Contact us today to start a conversation that could transform your businesss digital journey.
               </p>
             <Textlink text={"Work With Us!"} href={"/pages/Contact"} className={"font-bold"} />
 

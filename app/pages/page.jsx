@@ -245,7 +245,7 @@ function homepage() {
                   SOCIAL MEDIA MANAGEMENT
                 </h2>
                 <p className=" text-lg leading-relaxed">
-                  Engage your audience and grow your brand's influence through our creative and impactful social media campaigns.
+                  Engage your audience and grow your brands influence through our creative and impactful social media campaigns.
                 </p>
                 <Textlink text={"Book a Demo"} href={"/"} className={"font-bold text-gray-500"} />
 

@@ -53,7 +53,7 @@ function Seoservices() {
              DRIVE TARGETED TRAFFIC AND BOOST CONVERSIONS
             </h2>
             <p className="leading-relaxed mb-4 text-lg">
-              With Elevate Click's cutting-edge SEO techniques and industry knowledge, businesses can expect to climb the search engine rankings and attract targeted organic traffic. Our team of experienced professionals understands the ever-evolving algorithms and trends, ensuring that your website remains optimized for maximum visibility.
+              With Elevate Clicks cutting-edge SEO techniques and industry knowledge, businesses can expect to climb the search engine rankings and attract targeted organic traffic. Our team of experienced professionals understands the ever-evolving algorithms and trends, ensuring that your website remains optimized for maximum visibility.
             </p>
             <Textlink text={"Book a Demo"} href={"/pages/Contact"} className={"font-bold"} />
 
