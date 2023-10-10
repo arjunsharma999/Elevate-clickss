@@ -29,7 +29,7 @@ function Navbar() {
           >
             <Link href={"/"}>
               <img
-                className="w-[8rem] lg:w-[20rem] lg:pl-24 fles justify-start pl-3"
+                className="w-[15rem] lg:w-[20rem] lg:pl-24 fles justify-start pl-3"
                 src="/logo.png"
                 alt="Eelvete Click"
               />
