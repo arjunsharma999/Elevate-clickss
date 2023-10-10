@@ -181,7 +181,7 @@ function about() {
             >
               <img
                 className="lg:w-[25rem] lg:ml-[-2rem]"
-                src="/About/map.png"
+                src="/About/Map.png"
                 alt="About Image"
               />
             </motion.div>
