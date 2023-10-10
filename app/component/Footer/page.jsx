@@ -1,11 +1,12 @@
 import Link from "next/link";
 import React from "react";
+
 function Footer() {
   return (
     <div>
-      <footer className="z-[-100]  py-8 sm:py-12 text-white mt-[5rem]">
+      <footer className="z-[-100]  py-4 sm:py-6 text-white mt-[0rem]">
         <div className="container mx-auto px-4 lg:px-0 w-full xl:max-w-[1110px] 2xl:max-w-[1200px] 3xl:max-w-[1360px] z-[50]">
-          <div className="grid grid-cols-1 gap-5 md:grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-3 lg:grid-cols-4 justify-evenly">
             <div className="px-4 flex flex-col gap-5">
               <div className="mb-2 sm:mb-0">
                 <a
@@ -13,18 +14,18 @@ function Footer() {
                   className="text-2xl no-underline text-grey-darkest hover:text-blue-dark"
                 >
                   <img
-                    className="md:w-20 lg:w-24 block xl:w-[130px]"
+                    className="md:w-20 lg:w-24 block xl:w-[200px]"
                     src="/logo.png"
                     alt=""
                   />
                 </a>
               </div>
               <div>
-                <h1 className="text-[10px]">
-                We create website that clearly reflects your expertise, story, and values — so you can spend less time having sales conversations and more time helping people live happier, healthier, and more fulfilling lives
-
+                <h1 className="text-[15px]">
+                We create website that clearly reflects your expertise, story, and values so you can spend less time having sales conversations and more time helping people live happier, healthier, and more fulfilling lives
                 </h1>
               </div>
+              <p> Parent Company </p>
               <div className="flex gap-3 items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +84,6 @@ function Footer() {
                     stroke-linejoin="round"
                   />
                 </svg>
-
                 <Link href="https://www.expelee.com/">Visit expelee Website</Link> 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +105,7 @@ function Footer() {
               <li>
                                 <Link href="/pages/webdevservices" 
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                  >Web development</Link>
+                                  >Web Development</Link>
                                 
                                   
                               </li>
@@ -119,27 +119,19 @@ function Footer() {
                               <li>
                               <Link href="/pages/emailservices"
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                  >Email services</Link>
+                                  >Email Services</Link>
                               
                               </li>
-                              <li>
-                                <Link
-                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                  href="/pages/paidads"
-                                >
-                                  {" "}
-                                  Paid Ads
-                                </Link>
-                              </li>
+                              
                               <li>
                                 <Link href="/pages/secservices"
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                  > Seo services</Link>
+                                  > SEO Services</Link>
                               </li>
                               <li>
                                 <Link href="/pages/socialservices"
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                  > Social services</Link>
+                                  > Social Services</Link>
                               </li>
                               <li>
                                 <Link href={"/pages/analyst"}
@@ -164,10 +156,10 @@ function Footer() {
               About-us
             </Link>
             <Link
-              href="/pages/contact"
+              href="/pages/Contact"
               className="font-semibold flex gap-1 items-center group/Home"
             >
-              Contact
+              Contact Us
             </Link>
               </ul>
             </div>
@@ -177,13 +169,13 @@ function Footer() {
               </h5>
               <div className="flex sm:justify-center xl:justify-start mb-6 gap-2">
                 <a
-                  href=""
+                  href="https://www.linkedin.com/company/elevateclicks/"
                   className="w-8 h-8 border-gray-400 rounded-full text-center py-1 flex-shrink-0"
                 >
                   <img src="/social/li.svg" alt="" />
                 </a>
                 <a
-                  href=""
+                  href="https://www.twitter.com/ClicksElev20951"
                   className="w-8 h-8 border-gray-400 rounded-full text-center py-1 ml-2 flex-shrink-0"
                 >
                   <img src="/social/x.svg" alt="" />
@@ -200,14 +192,14 @@ function Footer() {
               </h5>
               <div className="flex sm:justify-center xl:justify-start items-center gap-3">
                 <a
-                  href=""
+                  href="pages/Contact"
                   className="w-10 h-10 rounded-full text-center py-1 flex-shrink-0"
                 >
                   <img src="/social/mail.png" alt="" />
                 </a>
                 <div className="flex flex-col">
                   <p>Send us an email</p>
-                  <p>contact@email.com</p>
+                  <p>business@elevateclicks.tech</p>
                 </div>
               </div>
             </div>
@@ -216,7 +208,7 @@ function Footer() {
 
         <hr className="h-px bg-white w-full max-w-[1000px] mx-auto block my-10" />
         <div className="flex flex-col md:flex-row gap-2 lg:gap-4 justify-center px-4 text-xs text-center lg">
-          <p>© Copyright 2023 company</p>
+          <p>© Copyright 2023 ElevateClicks</p>
           <p>FAQs</p>
           <p>Privacy Policy</p>
         </div>
